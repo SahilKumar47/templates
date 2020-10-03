@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-  // Preloader (if the #preloader div exists)
+  // Preloader
   $(window).on('load', function () {
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function () {
