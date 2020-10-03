@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 
-  // Header fixed and Back to top button
+  // Header fixed back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
